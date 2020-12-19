@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="136dp"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:paddingTop="20dp"
+                android:layout_marginStart="12dp"
+                android:text="@string/created_by_charcoal"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="@string/developers_name"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:paddingStart="14dp"
+                android:paddingEnd="0dp"
+                android:text="@string/copyrights"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="web"
+                android:fontFamily="sans-serif"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:text="@string/timer_wallpaper1_link"
+                android:textColor="@color/black"
+                android:textColorLink="@color/blue"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="web"
+                android:fontFamily="sans-serif"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:text="@string/timer_wallpaper2_link"
+                android:textColor="@color/black"
+                android:textColorLink="@color/blue"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="web"
+                android:fontFamily="sans-serif"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:text="@string/timer_wallpaper3_link"
+                android:textColor="@color/black"
+                android:textColorLink="@color/blue"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="web"
+                android:fontFamily="sans-serif"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:text="@string/timer_wallpaper4_link"
+                android:textColor="@color/black"
+                android:textColorLink="@color/blue"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="web"
+                android:fontFamily="sans-serif"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:text="@string/timer_wallpaper5_link"
+                android:textColor="@color/black"
+                android:textColorLink="@color/blue"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="web"
+                android:fontFamily="sans-serif"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:text="@string/flip_coin_tails_link"
+                android:textColor="@color/black"
+                android:textColorLink="@color/blue"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="web"
+                android:fontFamily="sans-serif"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:text="@string/flip_coin_heads_link"
+                android:textColor="@color/black"
+                android:textColorLink="@color/blue"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="web"
+                android:fontFamily="sans-serif"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:text="@string/flip_coin_sound_link"
+                android:textColor="@color/black"
+                android:textColorLink="@color/blue"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="web"
+                android:fontFamily="sans-serif"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:text="@string/app_icon_link"
+                android:textColor="@color/black"
+                android:textColorLink="@color/blue"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/inhale"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="web"
+                android:fontFamily="sans-serif"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:text="@string/inhale_audio"
+                android:textColor="@color/black"
+                android:textColorLink="@color/blue"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/exhale"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="web"
+                android:fontFamily="sans-serif"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:text="@string/exhale_audio"
+                android:textColor="@color/black"
+                android:textColorLink="@color/blue"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:paddingBottom="20dp"
+                android:textColor="@color/black"
+                android:textColorLink="@color/blue"
+                android:text=""
+                android:autoLink="web"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,160 @@
+<resources>
+    <string name="app_name">Kiddie Carpe Diem</string>
+
+    <!-- General Use -->
+    <string name="label_task">Task:</string>
+    <string name="label_name">Name:</string>
+    <string name="action_edit">action_edit</string>
+    <string name="action_delete">action_delete</string>
+    <string name="action_save">Save</string>
+    <string name="file_provider">ca.cmpt276.charcoal.practicalparent.fileProvider</string>
+    <string name="content_description_child_portrait">Portrait image of a child</string>
+
+    <!--        Strings for CoinFlipActivity        -->
+    <string name="label_coin_flip"> </string>
+    <string name="img_coin">flipCoins</string>
+    <string name="action_flip">FLIP</string>
+    <string name="title_activity_children">Your Children</string>
+    <string name="msg_tail_result">The Result is Tails</string>
+    <string name="msg_head_result">The Result is Heads</string>
+    <string name="msg_winner_result">You win!!</string>
+    <string name="msg_loser_result">You lost :(</string>
+    <string name="msg_no_result"> </string>
+    <string name="msg_user_choose_tails">User chose tails!</string>
+    <string name="msg_user_choose_heads">User chose heads!</string>
+    <string name="user_to_choose"> </string>
+
+
+    <!--        Strings for MainActivity            -->
+    <string name="your_daily_caretaker_managing_app_made_easy">Your daily caretaker managing app made easy</string>
+    <string name="button_label_timeout">Timeout</string>
+    <string name="button_label_records">Records</string>
+    <string name="button_label_children">Children</string>
+    <string name="button_label_help">Help</string>
+    <string name="button_label_tasks">Tasks</string>
+    <string name="notification_channel">Timer Alert</string>
+    <string name="channel_description">Sends a notification when the timeout timer has expired</string>
+
+    <!--        Strings for TimeOutActivity         -->
+    <string-array name="msg_preset_times">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+    <string name="timeout_alarm_notification_ID">timeoutAlarmNotification</string>
+    <string name="timeout_notification_title">Timeout Over</string>
+    <string name="timeout_notification_body">Your child\'s timeout is over</string>
+    <string name="notificationID_intent_name_tag">NotificationId</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_stop">STOP</string>
+    <string name="action_resume">Resume</string>
+    <string name="action_start">Start</string>
+    <string name="action_reset">Reset</string>
+    <string name="msg_minutes">Minutes</string>
+    <string name="action_set">Set</string>
+    <string name="msg_time">00:00</string>
+    <string name="stopwatch">Stopwatch</string>
+    <string name="action_alter_time_speed">Alter Time Speed</string>
+    <string name="msg_time_percent">Time @%d%%</string>
+    <string name="content_description_button_slow_down_time">Button that slows down time</string>
+    <string name="content_description_button_speed_up_time">Button that speed up time</string>
+
+    <!--        Strings for EditChildBottomSheetFragment    -->
+    <string name="msg_timer_speed">Timer Speed</string>
+    <string name="msg_timer_speed_percentage">%d%%</string>
+
+    <!--        Strings for EditChildActivity       -->
+    <string name="title_activity_edit_child">Edit Child</string>
+    <string name="edit_child_name_hint">Name</string>
+    <string name="edit_child_error_name">Name length must be greater than 0</string>
+    <string name="edit_image_txt">Image:</string>
+    <string name="action_upload_gallery_image">Upload</string>
+    <string name="action_get_camera_image">Camera</string>
+    <string name="error_image_save_problem">Error: Image could not be saved</string>
+    <string name="error_could_not_save_file">Error: Could not save file</string>
+    <string name="error_unique_child_name">Children names must be unique</string>
+    <string name="msg_storage_permission_explanation">Storage permissions needed to save and import pictures</string>
+    <string name="error_cannot_take_picture">Cannot take picture</string>
+
+    <!--        Strings for RecordActivity       -->
+    <string name="label_current_records">Current Child Records</string>
+    <string name="label_prior_records">Total Records History</string>
+
+    <!--        Strings for CoinFlipActivity       -->
+    <string name="label_heads">Heads</string>
+    <string name="label_tails">Tails</string>
+    <string name="label_child_name">Child Name</string>
+    <string name="msg_result">Result:Heads</string>
+    <string name="msg_date_result">Jan 8 1997 5:00pm</string>
+    <string name="msg_chooses">\ Chooses\</string>
+
+    <!--        Strings for HelpActivity       -->
+    <string name="title_activity_help">Help</string>
+    <string name="created_by_charcoal">Created By: Charcoal</string>
+    <string name="developers_name">Developers: Bryan, Harjot, Hyeonyoung, Jason</string>
+    <string name="copyrights">Copyrights:</string>
+    <string name="timer_wallpaper1_link">timer_wallpaper1 - http://wallpaperswide.com/beach_29-wallpapers.html</string>
+    <string name="timer_wallpaper2_link">timer_wallpaper2 - http://wallpaperswide.com/pink_desert_blue_sky-wallpapers.html</string>
+    <string name="timer_wallpaper3_link">timer_wallpaper3 - http://wallpaperswide.com/beach_drone_photography-wallpapers.html</string>
+    <string name="timer_wallpaper4_link">timer_wallpaper4 -http://wallpaperswide.com/search.html?q=calm</string>
+    <string name="timer_wallpaper5_link">timer_wallpaper5 - http://wallpaperswide.com/seaside_4-wallpapers.html</string>
+    <string name="edit_child_default_link">edit_child_default_image - https://material.io/resources/icons/?style=baseline</string>
+    <string name="flip_coin_tails_link">tails_coin - https://pixabay.com/vectors/phoenix-bird-legend-coin-fire-1292958/</string>
+    <string name="flip_coin_heads_link">heads_coin - https://pixabay.com/illustrations/bitcoin-blockchain-currency-coin-3125488/</string>
+    <string name="flip_coin_sound_link">coin_sound https://freesound.org/people/Lynx_5969/sounds/422670/</string>
+    <string name="app_icon_link">app_icon https://pixabay.com/vectors/baby-child-toddler-tiny-1724295/</string>
+
+    <!--        Strings for EditTaskActivity       -->
+    <string name="edit_task_name_hint">Name of the Task</string>
+    <string name="title_activity_tasks">Tasks</string>
+    <string name="title_activity_edit_task">Edit Task</string>
+    <string name="msg_add_your_child">Add Your Child</string>
+    <string name="action_confirm">Task Finished</string>
+    <string name="error_delete_task">You can only delete a task you are editing</string>
+
+    <!--        Strings for TasksActivity           -->
+    <string name="label_name_placeholder">Name: %s</string>
+    <string name="label_task_placeholder">Task: %s</string>
+
+    <!--        Strings for TaskInformationActivity -->
+    <string name="title_activity_task_information">Task Information</string>
+
+    <!-- Strings for Choose Child Activity -->
+    <string name="choose_who_picks">Choose who Picks</string>
+    <string name="up_next">Up Next....</string>
+    <string name="label_queue_number">22</string>
+    <string name="action_nobody_picks">nobody Picks</string>
+    <string name="title_activity_choose_child">Skip The Queue</string>
+
+    <!-- Strings for Take Breath Activity -->
+    <string name="title_take_breath">Take Breath</string>
+    <string name="button_label_take_breath">Take Breath</string>
+    <string name="action_begin">Begin</string>
+    <string name="msg_header_first_part">Let\'s take &#160; &#160; &#160; %d</string>
+    <string name="msg_header_second_part">breaths together</string>
+    <string name="msg_inhale">Hold button and breath in</string>
+    <string name="msg_release_button_for_inhale">Release button and breath out</string>
+    <string name="msg_exhale">Now breathe out</string>
+    <string name="msg_inhaling_state">Inhaling</string>
+    <string name="msg_inhaled_for_three_seconds">Breathed in for 3 seconds! Feel free to release Button and breathe out</string>
+    <string name="action_in">In</string>
+    <string name="action_out">Out!</string>
+    <string name="msg_good_job">Good Job</string>
+    <string name="content_description_for_taking_breath_img">Image for taking breath</string>
+    <string-array name="msg_num_breath">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string name="exhale_audio">exhale audio https://freesound.org/people/BurghRecords/sounds/463903/</string>
+    <string name="inhale_audio">inhale audio https://freesound.org/people/amholma/sounds/372181/</string>
+</resources>
